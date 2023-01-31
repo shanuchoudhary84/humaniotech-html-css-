@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(10.jpg);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+
+}
+.navbar{
+    width: 1350px;
+    height: 58px;
+    margin: auto;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)40%,rgba(0,0,0,0.5)40%);
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color:rgb(8, 240, 8);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 800px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size:14px ;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: Bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:green
+}
+
+/*form*/
+
+.form{
+    width: 1000px;
+    height: 490px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form input{
+    width: 256px;
+    height: 22px;
+    background:green;
+    border-bottom: 1px solid #5eb35e;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-top: 3px;
+    font-family: sans-serif;
+    margin-bottom: 29px;
+    border-radius: 10px;
+    margin-left: -2px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:green;
+    font-size: 22px;
+    border-radius: 10px;
+    margin:2px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form h4{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.form h3{
+    width: 452px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(40 199 40 / 50%);
+    border-radius: 10px;
+    margin: -432px;
+    padding: 78px;
+    margin-left: 383px;
+    opacity: 90%;
+
+}
+
+.btnn{
+    width: 172px;
+    height: 33px;
+    background: green;
+    border: none;
+    margin-top: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+
+
+.btnn:hover{
+    background: white;
+    color:green;
+}
+
+.btnn a{
+    text-align: none;
+    color: black;
+    font-weight: bold;
+
+}

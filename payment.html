@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+	<title></title>
+</head>
+<body style="background-image:url(4.jpg)">
+	<div class="wrapper">
+        <h2>Payment Form</h2>
+        <form action="" method="post" id="fm">
+            <h4>Account</h4>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Full Name" required class="name">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input_box">
+                    <input type="text" placeholder="Name on Card" required class="name">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="email" placeholder="E-mail address" required class="name">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="input_group"> 
+                <div class="input_box">
+                    <input type="text" placeholder="Address" required class="name">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="City" required class="name">
+                    <i class="fas fa-university"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Date of Birth</h4>
+                    <input type="text" placeholder="DD" required class="dob" min="1" max="31">
+                    <input type="text" placeholder="MM" required class="dob" min="1" max="12">
+                    <input type="text" placeholder="YYYY" required class="dob" min="0" max="9999">
+                </div>
+                <div class="input_box">
+                    <h4>Gender</h4>
+                    <input  type="radio" id="b1" name="gender" required >
+                    <label for="b1">MALE</label>
+                    <input  type="radio" id="b2" name="gender" required >
+                    <label for="b2">FEMALE</label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>PAYMENT DETAILS</h4>
+                    <input type="radio" id="bc1" name="pay" class="radio" >
+                    <label for="bc1"><span><i class="fab fa-cc-visa"> Credit Card</i></span></label>
+                    <input type="radio" id="bc2" name="pay" class="radio">
+                    <label for="bc2"><span><i class="fab fa-cc-mastercard"> Debit Card</i></span></label>
+                    <input type="radio" id="bc3" name="pay" class="radio">
+                    <label for="bc3"><span><i class="fab fa-cc-paypal"> Paypal</i></span></label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" class="name" placeholder="Card Number 1111-2222-3333-4444" required>
+                    <i class="far fa-credit-card"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="password" class="name" placeholder="Card CVC 632" required>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="number" class="name" placeholder="Exp Month" required>
+                    <i class="far fa-calendar-alt"></i>
+                </div>
+                <div class="input_box">
+                    <input type="number" min="2021" class="name" placeholder="Exp Year" required>
+                    <i class="far fa-calendar-alt"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="number" class="name" placeholder="Enter Amount to Donate (In $)" min="1" required>
+                    <i class="fas fa-money-check-alt"></i>
+                </div>
+            </div>
+                <div class="input-box">
+                    <button type="submit" class="submit" style="color:maroon;">Pay Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
